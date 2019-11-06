@@ -1,7 +1,2 @@
-jobs:
-  my_first_job:
-    name: IB Job Action
-      steps:
-        - uses: actions/setup-node@v1
-          with:
-            node-version: 10.x
+using: 'node12'
+main: './source/app.js'
