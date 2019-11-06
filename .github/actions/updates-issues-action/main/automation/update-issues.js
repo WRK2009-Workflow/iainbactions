@@ -1,9 +1,5 @@
 const request = require('request');
 const core = require('@actions/core');
-const ADO_PAT= core.getInput('ADO_PAT');
-const ADO_ORG= core.getInput('ADO_ORG');
-const ADO_PROJ= core.getInput('ADO_PROJ');
-const ADO_TEAM= core.getInput('ADO_TEAM');
 const GH_TOKEN= core.getInput('GH_TOKEN');
 const GH_USER= core.getInput('GH_USER');
 const GH_REPO=core.getInput('GH_REPO');
